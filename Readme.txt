@@ -11,13 +11,34 @@ Angular CLI
 Web API (.net 4.6.1)
 Materialize CSS (front end framework)
 ----------------------------------------------
-Required Software
-VS Code & Visual Studio Editor
------------------------------------------------
+Required Software and installation command 
+1-VS Code & Visual Studio 
+2-Install node.js
+  URL:https://nodejs.org/en/
+      node versio 8.11.1
+3-open comand prompt and run the below comand to angular CLI
+  npm install -g @angular/cli\
+----------------------------------------------
+How to create DB
+please run the attached script(seed sql script) in the DB it will create the DB.
+----------------------------------------------
+How to run the application?
+In the Zip file we two diffrent applicaion one web api and other web application.
+1-MyBlogApplication
+  a-open this the applicaion in the VS code 
+  b-open the MyBlogApplication folder in the terminal(right click and open in terminal)
+  c-run comand "npm install"
+    example: 
+    MyBlogApplication> npm install
+  d- after packages installation run the below comand in the terminal
+      ng serve --open
+      it will open the application in the default browser.     
+2-WebApi(open in the Visual studio)
+  a-Update the nuget packages and build the application 
+  c-please check the application port, it should be 6830.
+  d-change the Db connection string
+  -----------------------------------------------
 Default URL
-http://localhost:4200/Index
+http://localhost:4200/index
 ---------------------------------------------
-Application Setup
-Open the "MyBlogApplication" in VS Code
-Open "WebAPI" Visual Studio Editor
-Update the Web Api packages(i have remove the packages).
+
